@@ -123,7 +123,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-bottom: 4rem;
+    margin-bottom: 5rem;
  }
 
  .played-song .add {
@@ -153,7 +153,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-bottom: 4rem;
+    margin-bottom: 5rem;
     padding: 0 1rem;
  }
 
@@ -177,3 +177,36 @@ header {
     border-radius: .4rem;
     position: absolute;
  }  
+
+ /* control  */
+ .control {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+ }
+
+ #repeat-btn {
+   font-size: 2rem !important;
+   color: #ffffff;
+ }
+
+ #rewind-btn {
+   font-size: 3rem !important;
+   color: #ffffff;
+ }
+
+ #forward-btn {
+   font-size: 3rem !important;
+   color: #ffffff;
+ }
+
+ #play-pause-btn {
+   font-size: 5rem !important;
+   color: #ffffff;
+ }
+
+ #shuffle-btn {
+   font-size: 2rem !important;
+   color: #aeaea6;
+ }
+

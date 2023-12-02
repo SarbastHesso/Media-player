@@ -24,7 +24,7 @@ body {
 header {
     padding: 1rem;
     color: #ffffff;
-    margin: 1rem 0;
+    margin: .5rem 0 1rem;
     box-shadow: 0 3px 5px #000000;
 }
 
@@ -115,7 +115,8 @@ header {
  /* Large image  */
  .L-img {
     border: 3px solid #aeaea6;
-    margin-bottom: 3rem;
+    max-width: 200px;
+    margin: 0 auto 3rem;
  }
 
  /* info about the played song  */
@@ -123,7 +124,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-bottom: 5rem;
+    margin-bottom: 4rem;
  }
 
  .played-song .add {
@@ -153,7 +154,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-bottom: 5rem;
+    margin-bottom: 4rem;
     padding: 0 1rem;
  }
 
@@ -208,5 +209,6 @@ header {
  #shuffle-btn {
    font-size: 2rem !important;
    color: #aeaea6;
+   opacity: .4;
  }
 

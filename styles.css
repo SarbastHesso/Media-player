@@ -6,6 +6,8 @@
 
 body {
     background-color: #03394d;
+    background-image: url("bg.jpg");
+    background-position: top;
 }
 
 .container {
@@ -25,7 +27,7 @@ header {
     padding: 1rem;
     color: #ffffff;
     margin: .5rem 0 1rem;
-    box-shadow: 0 3px 5px #000000;
+    box-shadow: 0 3px 5px #ffffff;
 }
 
  header h3 {
@@ -47,7 +49,7 @@ header {
  section {
     flex: 1;
     padding: 1rem;
-    box-shadow: 0 3px 5px #000000;
+    box-shadow: 0 3px 5px #ffffff;
  }
 
  /* playlist section  */
@@ -61,8 +63,8 @@ header {
     justify-content: space-between;
     align-items: center;
     margin: 1rem;
-    border-bottom: 1px solid #000000;
-    box-shadow: 1px 2px 2px #000000;
+    border-bottom: 1px solid #ffffff;
+    box-shadow: 1px 2px 2px #ffffff;
     opacity: .5;
  }
 

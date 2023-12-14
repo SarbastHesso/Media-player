@@ -5,9 +5,9 @@
 }
 
 body {
-    background-color: #03394d;
-    background-image: url("bg.jpg");
-    background-position: top;
+   background: #060606;
+   background-image: url("bg.jpg");
+   background-position: top;
 }
 
 .container {
@@ -43,7 +43,6 @@ header {
  main {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
  }
 
  section {
@@ -65,7 +64,7 @@ header {
     margin: 1rem;
     border-bottom: 1px solid #ffffff;
     box-shadow: 1px 2px 2px #ffffff;
-    opacity: .5;
+    opacity: .7;
  }
 
  #rocket {
@@ -117,7 +116,7 @@ header {
  /* Large image  */
  .L-img {
     border: 3px solid #aeaea6;
-    max-width: 200px;
+    width: 90%;
     margin: 0 auto 3rem;
  }
 
@@ -137,7 +136,7 @@ header {
  .played-song .favorite {
     font-size: 2rem !important;
     color: #aeaea6;
-    opacity: .4;
+    opacity: .7;
  }
 
  .played-songer {
@@ -211,6 +210,58 @@ header {
  #shuffle-btn {
    font-size: 2rem !important;
    color: #aeaea6;
-   opacity: .4;
+   opacity: .7;
  }
+
+@media screen and (max-width: 1024px) {
+   main {
+      flex-direction: column-reverse;
+   }
+
+   .play-section {
+      margin-bottom: 4rem;
+   }
+}
+
+ @media screen and (max-width: 768px) {
+   .container{
+      max-width: 100%;
+   }
+
+   header, .playlist {
+      box-shadow: none;
+   }
+
+   .L-img {
+      margin: 2rem auto 3rem;
+   }
+
+   .play-section {
+      box-shadow: 0 2px 0 #ffffff;
+      padding: 1rem 1rem 4rem;
+   }
+
+   .played-songer, .played-song-name, .played-song-name {
+      font-size: 1.4rem;
+   }
+
+   .songer, .song-name {
+      font-size: 1.2rem;
+   }
+}
+
+@media screen and (max-width: 425px) {
+   header h3 {
+      font-size: 1.7rem;
+   }
+
+   .played-songer, .played-song-name, .played-song-name {
+      font-size: 1.2rem;
+   }
+
+   .songer, .song-name {
+      font-size: 1rem;
+   }
+
+}
 
